@@ -1,14 +1,14 @@
-var modelName = "matiz";
-var color = "green";
-var wheelsCount = "4";
-var isOffRoad = "no";
-var rating = "4.7";
+// var modelName = "matiz";
+// var color = "green";
+// var wheelsCount = "4";
+// var isOffRoad = "no";
+// var rating = "4.7";
 
-console.log("matyx", modelName);
-console.log("green", color);
-console.log("4", wheelsCount);
-console.log("no", isOffRoad);
-console.log("4,7", rating);
+// console.log("matyx", modelName);
+// console.log("green", color);
+// console.log("4", wheelsCount);
+// console.log("no", isOffRoad);
+// console.log("4,7", rating);
 
 // var a = 16;
 // var b = 17
@@ -41,5 +41,9 @@ var c = 7;
 var d = 55;
 var e = 8;
 
-console.log(a + b) * c - d / e;
+var result = (a + b * c - d / e) 
+
+console.log(result);
+
+
 
