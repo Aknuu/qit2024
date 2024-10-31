@@ -41,9 +41,6 @@ var c = 7;
 var d = 55;
 var e = 8;
 
-var result = (a + b * c - d / e) 
+var result = a + b * c - d / e;
 
 console.log(result);
-
-
-
