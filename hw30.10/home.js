@@ -1,25 +1,34 @@
-// var modelName = "matiz";
-// var color = "green";
-// var wheelsCount = "4";
-// var isOffRoad = "no";
-// var rating = "4.7";
+let age = 17; 
+if (age > 16) {
+    console.log("Жасы 16-дан үлкен");
+} else {
+    console.log("Жасы 16-дан кіші немесе тең");
+}
 
-// console.log("matyx", modelName);
-// console.log("green", color);
-// console.log("4", wheelsCount);
-// console.log("no", isOffRoad);
-// console.log("4,7", rating);
+let num = 7; 
+if (num % 2 === 0) {
+    console.log("Жұп");
+} else {
+    console.log("Тақ");
+}
 
-let slicesPerPizza = 8;
-let numberOfPizzas = 5;
-let totalSlices = slicesPerPizza * numberOfPizzas;
-console.log("Барлық тілімдер саны: " + totalSlices);
+let temperature = 25; 
+if (temperature >= 20 && temperature <= 30) {
+    console.log("Температура 20-дан 30 градусқа дейінгі диапазонда");
+} else {
+    console.log("Температура диапазонда емес");
+}
 
-let totalChocolates = 24;
-let numberOfFriends = 6;
-let chocolatesPerFriend = totalChocolates / numberOfFriends;
-console.log("Әр дос қанша шоколад алады: " + chocolatesPerFriend);
+num = -3; 
+if (num > 0) {
+    console.log("Сан оң");
+} else {
+    console.log("Сан оң емес");
+}
 
-let plantHeight = 10;
-plantHeight += 2;
-console.log("Бір аптадан кейін өсімдіктің биіктігі: " + plantHeight + " см");
+num = 50;
+if (num % 5 === 0 && num % 10 === 0) {
+    console.log("Шын");
+} else {
+    console.log("Жалған");
+}
