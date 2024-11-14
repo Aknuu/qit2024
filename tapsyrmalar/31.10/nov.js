@@ -1,25 +1,53 @@
-// var aqnur = "facebook";
-// alert("welcome to my " + aqnur + ":)");
+// let count = 0;
+// while (count < 10) {
+//     console.log(count);    // 0 1 2 3 4 5 6 7 8 9 10   count ++ санды дальше апармайт 
+//     count++;
+// }
 
-// var name = prompt("Enter your ");
+// let num = 0;
+// while (num < 10) {
+//     num++;
+//     if (num % 2 === 0) {
+//         continue;
+//     }
+//     console.log(num);
+    
+// }
 
-// alert("Hello " + name);
+// let num = 1;
+// while (num <= 15) {
+//     if (num % 3 === 0 && num % 5 === 0) {
+//         console.log("FizzBuz");
+        
+//     }else if (num % 3 === 0) {
+//         console.log("Fizz");
+        
+//     } else if (num % 5 === 0) {
+//         console.log("Buzz");
+        
+//     } else {
+//         console.log(num);
+        
+//     }
+//     num++;
+// }
 
-// var name = prompt("Enter you name ");
-// var age = prompt("Enter you age ");
-// alert ("hi," + name + "\n" + " Your age is" );
+
+// let num = 1;
+// let resilt = 0;
+
+// while (num <= 10) {
+//     resilt += num;
+//     num++;
+// }
+// console.log(resultEvan )
+// console.log( resultodd);
 
 
-// var num =  prompt("Enter number ");
 
-// if (num % 2==5) {
-//     alert("number" + num + "is ever/jup")
-// } else {"number" + num + is odd/taq} 
+// let num =0;
+// for (let i=1;i <= 10; i++) {
+//     num += i;
+// }
+// console.log(num);
 
-
-let qustionq1 = prompt(' 300+300= ');
-let qustionq2 = prompt (' 617*54=');
-var score = 0;
-
-if( qustionq1  == 600) 
-    score++;
