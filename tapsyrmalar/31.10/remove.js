@@ -1,49 +1,23 @@
-// for(let i = 100; i >=99; i--){ //100
-//      console.log(i)//
-// }
+let num1 = +prompt("birinshi san"); //5
+let num2 = +prompt("ikinci san");  //3
+let tanba = prompt("tanba"); //+ - * /
 
-// for(let i = 1; i <=100; i+=2){
-//     console.log(i)
-// }
+function calculator(a, b, t) {
+  if (t == "+") {
+    return a + b;
+  }else if (t == "-"){
+    return a - b;
+  }else if(t=="*"){
+    return a * b;
+  }else if(t=="/"){
 
-// for (let i = 2; i <= 100; i += 2) {
-//   if (i == 52) { 
-//     break;
-//   }
-//   console.log(i);
-// }
+  }
+}
 
-// let number = prompt ("Enter your  number"); 
-// let result = 0;
+var jauap = calculator(num1, num2, tanba);
 
-// for ( let i =1; i  <= number; i++) {
-//     result +=1;
-// } 
-// alert (result)
+alert(jauap);
 
-// let nember = + prompt('Enter your number');
+// const constructor = (x,y,z) => {}
 
-// for (let i = 1; i<=0; i++ ){ //cobeity keste
-//     console.log(nember + 'x '+ i + 'number ='+ nember * i);
-    
-// }
-
-// for (let i =1 ; i<=3; i++) {
-//     let suraq = prompt ("qazaq handygy qai jyly quryldy?" );
-//      if (suraq == "1465")
-//         {
-//             alert ("durus");
-//             break;
-//          } else{
-//             alert('qate');
-//          }
-//     }
-//     alert (bitty)
-     
-// var name = 'Aqnur';
-
-// for (let i =  name.length -1; i >=0;  i++) {
-//     console.log(charAt[i]);
-// }
-
-
+// alert(result = constructor(num1, num2, tanda) )
